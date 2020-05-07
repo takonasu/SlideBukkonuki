@@ -45,8 +45,7 @@ Mat difference(Mat frame1, Mat frame2)
     return output;
 }
 
-// 差分がどの程度の大きさなのかを計算して大きければTrue
-// (比較するフレーム1,比較するフレーム2,合計フレーム桁数,フレーム番号)
+// 差分がどの程度の大きさなのかを計算して閾値より大きければTrue
 bool compare_frames(Mat frame)
 {
     int width = frame.cols;
