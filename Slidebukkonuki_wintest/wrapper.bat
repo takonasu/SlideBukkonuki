@@ -15,7 +15,7 @@ set output_dir=%filename: =_%
 mkdir %~dp0\slides > NUL 2>&1
 mkdir %~dp0\slides\%output_dir%
 set made_dir=%~dp0slides\%output_dir%
-set output_path=%made_dir:\=/%
+set output_path=%made_dir:\=/%/
 echo %output_path%
 
 
