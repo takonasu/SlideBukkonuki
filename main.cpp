@@ -53,9 +53,9 @@ bool compare_frames(Mat frame)
 
     long int count = 0;
     long int countRGB = 0;
-    for (int i = width / 4; i < width * 3 / 4; i += 5)
+    for (int i = height / 4; i < height * 3 / 4; i += 5)
     {
-        for (int j = height / 3; j < height * 2; j += 5)
+        for (int j = width / 4; j < width * 3 / 4; j += 5)
         {
             count++;
             countRGB += (frame.at<Vec3b>(i, j)[0] + frame.at<Vec3b>(i, j)[1] + frame.at<Vec3b>(i, j)[2]);

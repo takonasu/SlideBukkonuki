@@ -1,0 +1,2 @@
+﻿  main.cpp
+c:\users\rm_ry\source\repos\slidebukkonuki_wintest\slidebukkonuki_wintest\main.cpp(3): fatal error C1083: include ファイルを開けません。'opencv2/opencv.hpp':No such file or directory
