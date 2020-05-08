@@ -3,7 +3,7 @@
 オンライン授業が始まる中、動画内でスライドを使っているのにスライドを配布してくれない謎の先生がたくさんいます。
 このプログラムは授業動画からスライドをぶっこぬくものです。
 ## ダウンロード
-GUI版のダウンロードは[こちら](https://github.com/takpika/SlideBukkonuki-GUI/releases)（Mac用のみです）
+GUI版のダウンロードは[こちら](https://github.com/takpika/SlideBukkonuki/releases)（Mac用のみです）
 ## コンパイルについて
 ### コンパイルの仕方(Mac)
 なお、Mac(Catalina)の人はこのレポジトリに実行可能ファイル（SlideBukkonuki）があるので、  
