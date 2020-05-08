@@ -1,7 +1,7 @@
 ﻿  main.cpp
 c:\opencv\build\include\opencv2\calib3d.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-c:\users\rm_ry\source\repos\slidebukkonuki2\slidebukkonuki_wintest\main.cpp(84): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
-c:\users\rm_ry\source\repos\slidebukkonuki2\slidebukkonuki_wintest\main.cpp(86): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
-c:\users\rm_ry\source\repos\slidebukkonuki2\slidebukkonuki_wintest\main.cpp(95): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
-c:\users\rm_ry\source\repos\slidebukkonuki2\slidebukkonuki_wintest\main.cpp(137): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\rm_ry\source\repos\slidebukkonuki2\slidebukkonuki_wintest\main.cpp(99): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\rm_ry\source\repos\slidebukkonuki2\slidebukkonuki_wintest\main.cpp(101): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+c:\users\rm_ry\source\repos\slidebukkonuki2\slidebukkonuki_wintest\main.cpp(110): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\rm_ry\source\repos\slidebukkonuki2\slidebukkonuki_wintest\main.cpp(152): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
   Slidebukkonuki_wintest.vcxproj -> C:\Users\rm_ry\Source\Repos\SlideBukkonuki2\x64\Debug\Slidebukkonuki_wintest.exe
