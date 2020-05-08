@@ -1,3 +1,6 @@
+rem slidebukkonukiのラッパースクリプト
+rem バイナリと同じフォルダに入れてD&Dすれば使えるようにしたい
+
 @echo off
 
 rem D&Dされたパスのバックスラッシュをスラッシュに置換
