@@ -85,11 +85,12 @@ windowsの人は[こちら](https://github.com/takonasu/SlideBukkonuki/tree/mast
 先生によってはアニメーションを多用したり、スライドのデザインによってはあまり変化が見られない先生もいます。
 そのため、先生によって変化の割合が全く異なってしまうために閾値を指定する必要があります。
 
-## 参考・謝辞
+## 参考・コントリビュータ
 動画から画像抽出：https://kisqragi.hatenablog.com/entry/2019/11/02/130921   
 相談しながら折り紙折ってた人: [おしゅん](https://twitter.com/uk_osy)  
 Windows版のビルド： [しゃちぽこ](https://twitter.com/Shachihoko6)  
-Mac GUI版： [takpika](https://twitter.com/takpika0308)
+Mac GUI版 ： [takpika](https://twitter.com/takpika0308)  
+Mac GUIデザイン: [SGO](https://twitter.com/sgo_ITF)  
 
 ## その他
 作者はプログラミングマジで苦手でC++も114514年ぶりくらいに触ったのでソースコードには稚拙な部分があります。

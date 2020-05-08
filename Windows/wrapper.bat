@@ -21,7 +21,7 @@ echo %output_path%
 
 rem 動画のアスペクト比を決定
 set aspect=
-set /P aspect="動画の画面比は？(4:3なら0 / 16:9なら1)："
+set /P aspect="ぶっこぬくスライドの画面比は？(4:3なら0 / 16:9なら1)："
 
 rem Autoモードにするか
 choice /m "全てデフォルト設定で処理しますか?(y/n)"
@@ -35,7 +35,7 @@ set threshold=10
 set interval=5
 
 rem ぶっこぬき実行
-call %~dp0Slidebukkonuki_wintest.exe %input_path% %output_path% %threshold% %trimming% %aspect% %interval% 
+call %~dp0Slidebukkonuki.exe %input_path% %output_path% %threshold% %trimming% %aspect% %interval% 
 exit /b
 
 :manual
@@ -52,7 +52,7 @@ set interval=
 set /P interval="フレーム取得間隔を変更しますか？(デフォルトなら5)"
 
 rem ぶっこぬき実行
-call %~dp0Slidebukkonuki_wintest.exe %input_path% %output_path% %threshold% %trimming% %aspect% %interval% 
+call %~dp0Slidebukkonukit.exe %input_path% %output_path% %threshold% %trimming% %aspect% %interval% 
 
 exit /b
 
