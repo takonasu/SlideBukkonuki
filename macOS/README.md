@@ -1,5 +1,5 @@
 # SlideBukkonuki-GUI
-![](https://raw.githubusercontent.com/takpika/SlideBukkonuki/master/SlideBukkonuki-GUI/img/スライドぶっこぬきマン.pn-2.png)
+![](https://raw.githubusercontent.com/takpika/SlideBukkonuki/master/macOS/img/スライドぶっこぬきマン.pn-2.png)
 
 
 [たこなす様](https://twitter.com/ITF_tako)作成のスライドぶっこ抜きマンをGUI化しました。[GitHub](https://github.com/takonasu/SlideBukkonuki)
