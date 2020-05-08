@@ -52,33 +52,15 @@ bool compare_frames(Mat frame)
 
 	long int count = 0;
 	long int countRGB = 0;
-
-	if (g_aspect_ratio == 0)
+	for (int i = height / 4; i < height * 3 / 4; i += 5)
 	{
-		for (int i = width / 4; i < width * 3 / 4; i += 5)
+		for (int j = width / 4; j < width * 3 / 4; j += 5)
 		{
-			for (int j = height / 3; j < height * 2; j += 5)
-			{
-				count++;
-				countRGB += (frame.at<Vec3b>(i, j)[0] + frame.at<Vec3b>(i, j)[1] + frame.at<Vec3b>(i, j)[2]);
-			}
-		}
-	}
-	else(g_aspect_ratio == 1);
-	{
-		for (int i = width / 16; i < width * 9 / 16; i += 5)
-		{
-			for (int j = height / 9; j < height * 2; j += 5)
-			{
-				count++;
-				countRGB += (frame.at<Vec3b>(i, j)[0] + frame.at<Vec3b>(i, j)[1] + frame.at<Vec3b>(i, j)[2]);
-			}
+			count++;
+			countRGB += (frame.at<Vec3b>(i, j)[0] + frame.at<Vec3b>(i, j)[1] + frame.at<Vec3b>(i, j)[2]);
 		}
 	}
 
-	// printf("RGB合計：%ld\n", countRGB);
-	// printf("精査回数：%ld\n", count);
-	// printf("平均：%ld \n", countRGB / count);
 	printf("変化割合：%f\n", ((float)(countRGB / count) / 256) * 100);
 
 	// 指定した閾値よりも変化しているか
