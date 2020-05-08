@@ -25,7 +25,7 @@ Mat trimming(Mat frame)
 		Rect roi(Point(g_trimming_point, 0), Size((height / 3) * 4, height));
 		return frame(roi);
 	}
-	else (g_aspect_ratio == 1);
+	else
 	{
 		// 16:9
 		Rect roi(Point(g_trimming_point, 0), Size((height / 9) * 16, height));
@@ -61,6 +61,9 @@ bool compare_frames(Mat frame)
 		}
 	}
 
+	// printf("RGB合計：%ld\n", countRGB);
+	// printf("精査回数：%ld\n", count);
+	// printf("平均：%ld \n", countRGB / count);
 	printf("変化割合：%f\n", ((float)(countRGB / count) / 256) * 100);
 
 	// 指定した閾値よりも変化しているか
