@@ -20,10 +20,11 @@ sh compile.sh
 適当にcompile.shの中身を編集してください。
 
 ### コンパイルの仕方(Windows)
-windowsでコンパイルできません・・・正しくはコンパイルしてもエラーで実行できず・・・
-どちら様か、windowsでコンパイルできたらご報告をお願いします。
+windowsフォルダーのREADME.md を参照ください。
 
-## 使い方
+
+## 使い方(Mac)
+windowsの人はwindowsフォルダーのREADME.mdを参照ください。
 ### 準備するもの
 - 授業動画（あらかじめダウンロードしておいてください。)
 - コンパイル済み実行可能ファイル
@@ -85,7 +86,8 @@ windowsでコンパイルできません・・・正しくはコンパイルし�
 
 ## 参考・謝辞
 動画から画像抽出：https://kisqragi.hatenablog.com/entry/2019/11/02/130921   
-相談しながら折り紙折ってた人: [おしゅん](https://twitter.com/uk_osy)
+相談しながら折り紙折ってた人: [おしゅん](https://twitter.com/uk_osy)  
+Windows版のビルド： [しゃちぽこ](https://twitter.com/Shachihoko6)
 
 ## その他
 作者はプログラミングマジで苦手でC++も114514年ぶりくらいに触ったのでソースコードには稚拙な部分があります。
