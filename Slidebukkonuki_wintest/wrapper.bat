@@ -35,10 +35,6 @@ set threshold=10
 set interval=5
 
 rem ぶっこぬき実行
-echo %input_path% %output_path% %threshold% %trimming% %aspect% %interval%
-
-pause
-
 call %~dp0Slidebukkonuki_wintest.exe %input_path% %output_path% %threshold% %trimming% %aspect% %interval% 
 exit /b
 
@@ -55,6 +51,7 @@ rem フレーム取得間隔
 set interval=
 set /P interval="フレーム取得間隔を変更しますか？(デフォルトなら5)"
 
+rem ぶっこぬき実行
 call %~dp0Slidebukkonuki_wintest.exe %input_path% %output_path% %threshold% %trimming% %aspect% %interval% 
 
 exit /b
