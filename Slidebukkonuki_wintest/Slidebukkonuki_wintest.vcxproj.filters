@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\x64\Debug\Slidebukkonuki.bat">
+    <None Include="wrapper.bat">
       <Filter>ソース ファイル</Filter>
     </None>
   </ItemGroup>

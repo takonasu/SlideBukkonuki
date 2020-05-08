@@ -5,11 +5,6 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Slidebukkonuki_wintest", "Slidebukkonuki_wintest\Slidebukkonuki_wintest.vcxproj", "{02E3B396-A841-4567-AD9A-5CE2AE905863}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wrapperscript", "wrapperscript", "{59D62760-CE04-47A6-ABDB-0648DF3052BB}"
-	ProjectSection(SolutionItems) = preProject
-		x64\Debug\Slidebukkonuki.bat = x64\Debug\Slidebukkonuki.bat
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
