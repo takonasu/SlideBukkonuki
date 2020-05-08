@@ -9,13 +9,15 @@
 import Cocoa
 
 class ATA: NSViewController {
-
+    @IBOutlet weak var imageview: NSImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.window?.contentMaxSize = view.frame.size
         self.view.window?.contentMinSize = view.frame.size
+        imageview.image = NSImage(named: "AppIcon")
         // Do view setup here.
     }
+    
     func openURL(url: String){
         let task = Process()
         task.launchPath = "/usr/bin/env";

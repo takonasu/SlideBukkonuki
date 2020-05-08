@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaDFRPlugin" version="16002"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="the Touch Bar" minToolsVersion="8.1" minSystemVersion="10.12.2" requiredIntegratedClassName="NSTouchBar"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -127,7 +129,7 @@
             <objects>
                 <viewController title="このアプリについて" id="KeE-Rs-m0q" customClass="ATA" customModule="SlideBukkonuki_GUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="dTE-Rn-ePd">
-                        <rect key="frame" x="0.0" y="0.0" width="470" height="210"/>
+                        <rect key="frame" x="0.0" y="0.0" width="470" height="251"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Luv-5Q-Byn">
@@ -147,16 +149,16 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="emk-lR-LVG">
-                                <rect key="frame" x="340" y="144" width="112" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Version 1.0.0 beta" id="D54-ha-gpX">
+                                <rect key="frame" x="329" y="144" width="123" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Version 1.0.0 beta 2" id="D54-ha-gpX">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1AF-11-vpb">
-                                <rect key="frame" x="25" y="120" width="104" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Made by takpika" id="Tn6-EA-Dwh">
+                                <rect key="frame" x="25" y="120" width="134" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Developed by takpika" id="Tn6-EA-Dwh">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -237,7 +239,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DmK-r8-uP8">
-                                <rect key="frame" x="293" y="108" width="81" height="32"/>
+                                <rect key="frame" x="293" y="110" width="81" height="32"/>
                                 <buttonCell key="cell" type="push" title="Github" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5zw-rf-iKY">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -246,25 +248,52 @@
                                     <action selector="GHtakpikaBT:" target="KeE-Rs-m0q" id="ZNT-SW-sh2"/>
                                 </connections>
                             </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a5P-am-Vdo">
+                                <rect key="frame" x="211" y="193" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="a5P-am-Vdo" secondAttribute="height" multiplier="1:1" id="HWT-gy-5OZ"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="O7R-BN-SPc"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Lgo-TD-eXL">
+                                <rect key="frame" x="339" y="161" width="117" height="32"/>
+                                <touchBar key="touchBar" id="OYH-9y-Psg">
+                                    <nil name="touchBarItems"/>
+                                </touchBar>
+                                <buttonCell key="cell" type="push" title="What's new?" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Fy4-Ib-97w">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="QOs-8J-pxo" kind="modal" id="jYc-g0-2JG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="Luv-5Q-Byn" firstAttribute="centerX" secondItem="dTE-Rn-ePd" secondAttribute="centerX" id="0b7-fs-AlK"/>
                             <constraint firstItem="f4L-um-DUr" firstAttribute="top" secondItem="hez-m4-MRa" secondAttribute="bottom" constant="8" id="0mf-yA-Rgj"/>
                             <constraint firstItem="hez-m4-MRa" firstAttribute="top" secondItem="aUy-I7-KVS" secondAttribute="bottom" constant="8" id="3OK-iQ-sqm"/>
+                            <constraint firstItem="a5P-am-Vdo" firstAttribute="centerX" secondItem="dTE-Rn-ePd" secondAttribute="centerX" id="4aR-ga-J7G"/>
                             <constraint firstAttribute="trailing" secondItem="emk-lR-LVG" secondAttribute="trailing" constant="20" id="5Mk-sx-OVi"/>
+                            <constraint firstItem="Luv-5Q-Byn" firstAttribute="top" secondItem="a5P-am-Vdo" secondAttribute="bottom" constant="8" id="6zY-Gn-Kzp"/>
+                            <constraint firstItem="emk-lR-LVG" firstAttribute="top" secondItem="Lgo-TD-eXL" secondAttribute="bottom" constant="8" id="BUa-dK-bqH"/>
                             <constraint firstItem="1b6-qL-bKF" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="25" id="HXu-Zt-lSQ"/>
                             <constraint firstItem="Idb-XF-nZz" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="25" id="Hzm-da-Tkj"/>
                             <constraint firstItem="1b6-qL-bKF" firstAttribute="top" secondItem="1AF-11-vpb" secondAttribute="bottom" constant="8" id="KXl-tS-gec"/>
                             <constraint firstItem="1AF-11-vpb" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="27" id="LGK-cb-YZj"/>
                             <constraint firstAttribute="bottom" secondItem="zEM-UG-18Q" secondAttribute="bottom" constant="19" id="MuM-Zd-0jj"/>
-                            <constraint firstItem="Idb-XF-nZz" firstAttribute="top" secondItem="dTE-Rn-ePd" secondAttribute="top" constant="50" id="N9W-I4-9fH"/>
+                            <constraint firstItem="Zh0-qW-KJz" firstAttribute="leading" secondItem="DmK-r8-uP8" secondAttribute="trailing" constant="12" id="Ndn-Ht-coP"/>
                             <constraint firstItem="XT5-DL-7uU" firstAttribute="leading" secondItem="zEM-UG-18Q" secondAttribute="trailing" constant="12" id="Nwa-FN-jP0"/>
+                            <constraint firstAttribute="trailing" secondItem="Lgo-TD-eXL" secondAttribute="trailing" constant="20" id="Ogp-Qf-m5f"/>
                             <constraint firstAttribute="trailing" secondItem="Zh0-qW-KJz" secondAttribute="trailing" constant="20" id="PVg-mm-MaY"/>
-                            <constraint firstItem="DmK-r8-uP8" firstAttribute="top" secondItem="emk-lR-LVG" secondAttribute="bottom" constant="8" id="Pqv-ZI-ZBv"/>
+                            <constraint firstItem="hez-m4-MRa" firstAttribute="top" secondItem="Luv-5Q-Byn" secondAttribute="bottom" constant="102" id="TS2-x7-uCt"/>
+                            <constraint firstItem="a5P-am-Vdo" firstAttribute="top" secondItem="dTE-Rn-ePd" secondAttribute="top" constant="10" id="USX-Tm-L5j"/>
                             <constraint firstItem="1AF-11-vpb" firstAttribute="top" secondItem="Idb-XF-nZz" secondAttribute="bottom" constant="8" id="V30-Ur-oyd"/>
-                            <constraint firstItem="Luv-5Q-Byn" firstAttribute="top" secondItem="dTE-Rn-ePd" secondAttribute="top" constant="25" id="VR5-8w-AM9"/>
+                            <constraint firstItem="aUy-I7-KVS" firstAttribute="top" secondItem="Zh0-qW-KJz" secondAttribute="bottom" constant="24" id="Wc0-Pf-nT3"/>
                             <constraint firstItem="f4L-um-DUr" firstAttribute="leading" secondItem="XT5-DL-7uU" secondAttribute="trailing" constant="12" id="Wfd-5U-4z0"/>
                             <constraint firstItem="3af-Yc-MYm" firstAttribute="top" secondItem="1b6-qL-bKF" secondAttribute="bottom" constant="8" id="ZVg-np-dsI"/>
+                            <constraint firstAttribute="bottom" secondItem="f4L-um-DUr" secondAttribute="bottom" constant="19" id="aPY-PT-pl7"/>
+                            <constraint firstItem="hez-m4-MRa" firstAttribute="top" secondItem="DmK-r8-uP8" secondAttribute="bottom" constant="53" id="b1a-8M-7mY"/>
                             <constraint firstItem="hez-m4-MRa" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="27" id="dwD-TK-ou5"/>
                             <constraint firstAttribute="trailing" secondItem="aUy-I7-KVS" secondAttribute="trailing" constant="20" id="i28-FU-xCA"/>
                             <constraint firstAttribute="bottom" secondItem="XT5-DL-7uU" secondAttribute="bottom" constant="19" id="jpM-LI-EVa"/>
@@ -273,13 +302,134 @@
                             <constraint firstAttribute="trailing" secondItem="f4L-um-DUr" secondAttribute="trailing" constant="20" id="nDM-sw-ULM"/>
                             <constraint firstItem="3af-Yc-MYm" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="25" id="pmB-oV-Eb6"/>
                             <constraint firstItem="Zh0-qW-KJz" firstAttribute="top" secondItem="emk-lR-LVG" secondAttribute="bottom" constant="6" id="sYz-dh-6dY"/>
-                            <constraint firstItem="emk-lR-LVG" firstAttribute="top" secondItem="dTE-Rn-ePd" secondAttribute="top" constant="50" id="x6B-Ij-3Ar"/>
+                            <constraint firstItem="DmK-r8-uP8" firstAttribute="top" secondItem="emk-lR-LVG" secondAttribute="bottom" constant="6" id="vWM-Ii-0OT"/>
                         </constraints>
                     </view>
+                    <touchBar key="touchBar" id="abe-xg-pb9">
+                        <touchBarItems>
+                            <touchBarItem id="bgD-Se-so6">
+                                <viewController key="viewController" id="gj2-Uz-fsG">
+                                    <textField key="view" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jiy-48-Pps">
+                                        <rect key="frame" x="0.0" y="0.0" width="281" height="18"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="SlideBukkonuki-GUI Version 1.0.0 beta 2" id="2z5-Fu-ndy">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="sKs-kc-V3p"/>
+                            <touchBarItem id="eix-TT-Kg4">
+                                <viewController key="viewController" title="What's new?" id="SAg-mN-Z4k">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9At-J7-xfW">
+                                        <rect key="frame" x="0.0" y="0.0" width="108" height="30"/>
+                                        <buttonCell key="cell" type="push" title="What's new?" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8of-fD-rP2">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <segue destination="QOs-8J-pxo" kind="modal" id="ggw-rJ-K1T"/>
+                                        </connections>
+                                    </button>
+                                </viewController>
+                            </touchBarItem>
+                        </touchBarItems>
+                    </touchBar>
+                    <connections>
+                        <outlet property="imageview" destination="a5P-am-Vdo" id="Lg7-ls-9n3"/>
+                    </connections>
                 </viewController>
                 <customObject id="UY6-5s-xbA" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="180.5" y="342"/>
+            <point key="canvasLocation" x="333" y="414"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UQr-B8-iee">
+            <objects>
+                <viewController id="QOs-8J-pxo" sceneMemberID="viewController">
+                    <view key="view" id="tQu-6p-JwB">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="155"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UHw-Rf-FGO">
+                                <rect key="frame" x="18" y="116" width="97" height="19"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="What's new?" id="KgG-da-7IZ">
+                                    <font key="font" metaFont="systemBold" size="15"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Qi5-Od-YRZ">
+                                <rect key="frame" x="18" y="92" width="123" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Version 1.0.0 beta 2" id="0nL-63-PdT">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="iyL-PY-FtF">
+                                <rect key="frame" x="18" y="44" width="281" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="・このアプリについての配置を少し修正しました。" id="KIY-Dc-OXX">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1kw-eb-ysf">
+                                <rect key="frame" x="18" y="20" width="189" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="・What's new?を追加しました。" id="wfR-am-Z22">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5GX-oO-hV9">
+                                <rect key="frame" x="18" y="68" width="329" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="・このアプリについてにアプリのアイコンを表示しました。" id="UmN-Ki-xJu">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="UHw-Rf-FGO" firstAttribute="leading" secondItem="tQu-6p-JwB" secondAttribute="leading" constant="20" id="4BQ-ws-Vhw"/>
+                            <constraint firstItem="Qi5-Od-YRZ" firstAttribute="leading" secondItem="tQu-6p-JwB" secondAttribute="leading" constant="20" id="9wV-KP-UCp"/>
+                            <constraint firstItem="Qi5-Od-YRZ" firstAttribute="top" secondItem="UHw-Rf-FGO" secondAttribute="bottom" constant="8" id="DoI-wH-MSb"/>
+                            <constraint firstItem="5GX-oO-hV9" firstAttribute="top" secondItem="Qi5-Od-YRZ" secondAttribute="bottom" constant="8" id="DwX-VI-Rmp"/>
+                            <constraint firstItem="iyL-PY-FtF" firstAttribute="leading" secondItem="tQu-6p-JwB" secondAttribute="leading" constant="20" id="F8v-Q5-kcr"/>
+                            <constraint firstItem="1kw-eb-ysf" firstAttribute="top" secondItem="iyL-PY-FtF" secondAttribute="bottom" constant="8" id="GSk-8L-UX5"/>
+                            <constraint firstItem="UHw-Rf-FGO" firstAttribute="top" secondItem="tQu-6p-JwB" secondAttribute="top" constant="20" id="KIH-LG-mBD"/>
+                            <constraint firstItem="5GX-oO-hV9" firstAttribute="leading" secondItem="tQu-6p-JwB" secondAttribute="leading" constant="20" id="QdD-zd-D0h"/>
+                            <constraint firstItem="5GX-oO-hV9" firstAttribute="top" secondItem="Qi5-Od-YRZ" secondAttribute="bottom" constant="8" id="UcQ-PO-dLe"/>
+                            <constraint firstItem="1kw-eb-ysf" firstAttribute="leading" secondItem="tQu-6p-JwB" secondAttribute="leading" constant="20" id="YEd-5H-gv9"/>
+                            <constraint firstItem="iyL-PY-FtF" firstAttribute="top" secondItem="5GX-oO-hV9" secondAttribute="bottom" constant="8" id="aZk-b6-BJy"/>
+                        </constraints>
+                    </view>
+                    <touchBar key="touchBar" id="Xfs-FF-dYv">
+                        <touchBarItems>
+                            <touchBarItem id="ADm-wD-73h">
+                                <viewController key="viewController" id="dZk-nc-aNh">
+                                    <textField key="view" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2NR-MK-xkH">
+                                        <rect key="frame" x="0.0" y="0.0" width="378" height="18"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="・Touch Barに対応しました。（このアプリについてのみ）" id="ocL-rU-A7z">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                            </touchBarItem>
+                        </touchBarItems>
+                    </touchBar>
+                </viewController>
+                <customObject id="LNq-F2-A2s" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1099" y="414"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ggw-rJ-K1T"/>
+    </inferredMetricsTieBreakers>
 </document>
