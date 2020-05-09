@@ -5,7 +5,7 @@ rem D&Dでつんでれんこみたいな感じにしたい
 
 rem D&Dされたパスのバックスラッシュをスラッシュに置換
 set dropped_path=%1
-set input_path="%dropped_path:\=/%"
+set input_path=%dropped_path:\=/%
 
 rem 入力パス通知
 echo 入力パスは %input_path%
@@ -54,6 +54,7 @@ set interval=5
 
 rem ぶっこぬき実行
 call %bat_path%bin\Slidebukkonuki.exe %input_path% %output_path% %threshold% %trimming% %aspect% %interval% 
+pause
 exit /b
 
 :manual
