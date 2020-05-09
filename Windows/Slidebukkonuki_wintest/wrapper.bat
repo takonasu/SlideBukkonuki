@@ -37,9 +37,9 @@ rem 出力パス通知
 echo 出力パスは %output_path%
 
 
-rem 動画のアスペクト比を決定
+rem スライドのアスペクト比を決定
 set aspect=
-set /P aspect="動画の画面比は？(4:3なら0 / 16:9なら1)："
+set /P aspect="動画内スライドの画面比は？(4:3なら0 / 16:9なら1)："
 
 rem Autoモードにするか
 choice /m "全てデフォルト設定で処理しますか?"
