@@ -99,6 +99,7 @@ windowsの人は[こちら](https://github.com/takonasu/SlideBukkonuki/tree/mast
 動画から画像抽出：https://kisqragi.hatenablog.com/entry/2019/11/02/130921   
 相談しながら折り紙折ってた人: [おしゅん](https://twitter.com/uk_osy)  
 Windows版のビルド： [しゃちぽこ](https://twitter.com/Shachihoko6)  
+Mac GUI版 ： [takpika](https://twitter.com/takpika0308),[SGO](https://twitter.com/sgo_ITF) 
 
 ## その他
 作者はプログラミングマジで苦手でC++も114514年ぶりくらいに触ったのでソースコードには稚拙な部分があります。
