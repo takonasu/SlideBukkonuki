@@ -54,7 +54,6 @@ set interval=5
 
 rem ‚Ô‚Á‚±‚Ê‚«Às
 call %bat_path%bin\Slidebukkonuki.exe %input_path% %output_path% %threshold% %trimming% %aspect% %interval% 
-pause
 exit /b
 
 :manual
