@@ -24,7 +24,7 @@ windowsフォルダーのREADME.md を参照ください。
 
 
 ## 使い方(Mac)
-GUI版を使いたい方は[こちら](https://github.com/takonasu/SlideBukkonuki/tree/develop/SlideBukkonuki-GUI)を参照ください。  
+GUI版を使いたい方は[こちら](https://github.com/takonasu/SlideBukkonuki/tree/develop/macOS)を参照ください。  
 windowsの人は[こちら](https://github.com/takonasu/SlideBukkonuki/tree/master/Windows)を参照ください。
 ### 準備するもの
 - 授業動画（あらかじめダウンロードしておいてください。)
