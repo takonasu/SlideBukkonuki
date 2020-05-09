@@ -21,7 +21,7 @@ class ATA: NSViewController {
     func openURL(url: String){
         let task = Process()
         task.launchPath = "/usr/bin/env";
-        task.arguments = ["open","-a","safari",url]
+        task.arguments = ["open",url]
         task.launch()
     }
     @IBAction func TWtakpikaBT(_ sender: Any) {
