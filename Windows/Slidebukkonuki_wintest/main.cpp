@@ -64,10 +64,10 @@ bool compare_frames(Mat frame)
 	// printf("RGB合計：%ld\n", countRGB);
 	// printf("精査回数：%ld\n", count);
 	// printf("平均：%ld \n", countRGB / count);
-	printf("変化割合：%f\n", ((float)(countRGB / count) / 256) * 100);
+	printf("変化割合：%f\n", countRGB / (float)count / 256.0 * 100);
 
 	// 指定した閾値よりも変化しているか
-	return ((((float)(countRGB / count) / 256) * 100) > g_threshold);
+	return (countRGB / (float)count / 256.0 * 100) > g_threshold;
 }
 
 // 参考:https://kisqragi.hatenablog.com/entry/2019/11/02/130921
