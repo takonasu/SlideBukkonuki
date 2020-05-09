@@ -1,5 +1,4 @@
 #coding: utf-8
-#未完成品です。
 import cv2
 import numpy as np
 from argparse import ArgumentParser
