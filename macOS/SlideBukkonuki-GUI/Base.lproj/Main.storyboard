@@ -129,11 +129,11 @@
             <objects>
                 <viewController title="このアプリについて" id="KeE-Rs-m0q" customClass="ATA" customModule="SlideBukkonuki_GUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="dTE-Rn-ePd">
-                        <rect key="frame" x="0.0" y="0.0" width="519" height="251"/>
+                        <rect key="frame" x="0.0" y="0.0" width="470" height="251"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Luv-5Q-Byn">
-                                <rect key="frame" x="195" y="166" width="129" height="19"/>
+                                <rect key="frame" x="171" y="166" width="129" height="19"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="このアプリについて" id="yN0-l5-Rkf">
                                     <font key="font" metaFont="systemBold" size="15"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -149,15 +149,15 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="emk-lR-LVG">
-                                <rect key="frame" x="378" y="144" width="123" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Version 1.0.0 beta 3" id="D54-ha-gpX">
+                                <rect key="frame" x="329" y="144" width="123" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Version 1.0.0 beta 2" id="D54-ha-gpX">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1AF-11-vpb">
-                                <rect key="frame" x="23" y="120" width="134" height="16"/>
+                                <rect key="frame" x="25" y="120" width="134" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Developed by takpika" id="Tn6-EA-Dwh">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -166,7 +166,7 @@
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1b6-qL-bKF">
                                 <rect key="frame" x="23" y="96" width="142" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Last Update: 2020/5/9" id="Uwb-h2-3Da">
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Last Update: 2020/5/8" id="Uwb-h2-3Da">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -181,15 +181,15 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hez-m4-MRa">
-                                <rect key="frame" x="23" y="48" width="473" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="truncatingTail" alignment="left" title="このアプリは、たこなす様作成のスライドぶっこ抜きマンをベースに作成しています。" id="u9e-da-dOd">
+                                <rect key="frame" x="25" y="48" width="433" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="truncatingTail" alignment="left" title="このアプリは、たこなす様作成のSlideBukkonukiをベースに作成しています。" id="u9e-da-dOd">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Zh0-qW-KJz">
-                                <rect key="frame" x="423" y="110" width="82" height="32"/>
+                                <rect key="frame" x="374" y="110" width="82" height="32"/>
                                 <buttonCell key="cell" type="push" title="Twitter" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xOE-GO-3Qa">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -199,7 +199,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aUy-I7-KVS">
-                                <rect key="frame" x="423" y="65" width="82" height="32"/>
+                                <rect key="frame" x="374" y="65" width="82" height="32"/>
                                 <buttonCell key="cell" type="push" title="Twitter" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0tO-5r-bTE">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -209,7 +209,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="f4L-um-DUr">
-                                <rect key="frame" x="423" y="12" width="82" height="32"/>
+                                <rect key="frame" x="374" y="12" width="82" height="32"/>
                                 <buttonCell key="cell" type="push" title="Twitter" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MWq-vA-UrB">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -219,7 +219,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XT5-DL-7uU">
-                                <rect key="frame" x="319" y="12" width="104" height="32"/>
+                                <rect key="frame" x="270" y="12" width="104" height="32"/>
                                 <buttonCell key="cell" type="push" title="Webサイト" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="un8-TW-gcp">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -229,7 +229,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zEM-UG-18Q">
-                                <rect key="frame" x="238" y="12" width="81" height="32"/>
+                                <rect key="frame" x="189" y="12" width="81" height="32"/>
                                 <buttonCell key="cell" type="push" title="Github" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="i56-CE-gZn">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -239,7 +239,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DmK-r8-uP8">
-                                <rect key="frame" x="342" y="110" width="81" height="32"/>
+                                <rect key="frame" x="293" y="110" width="81" height="32"/>
                                 <buttonCell key="cell" type="push" title="Github" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5zw-rf-iKY">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -249,14 +249,14 @@
                                 </connections>
                             </button>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a5P-am-Vdo">
-                                <rect key="frame" x="236" y="193" width="48" height="48"/>
+                                <rect key="frame" x="211" y="193" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="a5P-am-Vdo" secondAttribute="height" multiplier="1:1" id="HWT-gy-5OZ"/>
                                 </constraints>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="O7R-BN-SPc"/>
                             </imageView>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Lgo-TD-eXL">
-                                <rect key="frame" x="388" y="161" width="117" height="32"/>
+                                <rect key="frame" x="339" y="161" width="117" height="32"/>
                                 <touchBar key="touchBar" id="OYH-9y-Psg">
                                     <nil name="touchBarItems"/>
                                 </touchBar>
@@ -276,14 +276,11 @@
                             <constraint firstItem="a5P-am-Vdo" firstAttribute="centerX" secondItem="dTE-Rn-ePd" secondAttribute="centerX" id="4aR-ga-J7G"/>
                             <constraint firstAttribute="trailing" secondItem="emk-lR-LVG" secondAttribute="trailing" constant="20" id="5Mk-sx-OVi"/>
                             <constraint firstItem="Luv-5Q-Byn" firstAttribute="top" secondItem="a5P-am-Vdo" secondAttribute="bottom" constant="8" id="6zY-Gn-Kzp"/>
-                            <constraint firstItem="hez-m4-MRa" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="25" id="8he-tk-grh"/>
                             <constraint firstItem="emk-lR-LVG" firstAttribute="top" secondItem="Lgo-TD-eXL" secondAttribute="bottom" constant="8" id="BUa-dK-bqH"/>
                             <constraint firstItem="1b6-qL-bKF" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="25" id="HXu-Zt-lSQ"/>
                             <constraint firstItem="Idb-XF-nZz" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="25" id="Hzm-da-Tkj"/>
-                            <constraint firstAttribute="trailing" secondItem="hez-m4-MRa" secondAttribute="trailing" constant="25" id="JZ2-PB-zsS"/>
                             <constraint firstItem="1b6-qL-bKF" firstAttribute="top" secondItem="1AF-11-vpb" secondAttribute="bottom" constant="8" id="KXl-tS-gec"/>
-                            <constraint firstItem="XT5-DL-7uU" firstAttribute="leading" secondItem="zEM-UG-18Q" secondAttribute="trailing" constant="12" id="KjB-fb-4ub"/>
-                            <constraint firstItem="1AF-11-vpb" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="25" id="MfY-JV-7gL"/>
+                            <constraint firstItem="1AF-11-vpb" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="27" id="LGK-cb-YZj"/>
                             <constraint firstAttribute="bottom" secondItem="zEM-UG-18Q" secondAttribute="bottom" constant="19" id="MuM-Zd-0jj"/>
                             <constraint firstItem="Zh0-qW-KJz" firstAttribute="leading" secondItem="DmK-r8-uP8" secondAttribute="trailing" constant="12" id="Ndn-Ht-coP"/>
                             <constraint firstItem="XT5-DL-7uU" firstAttribute="leading" secondItem="zEM-UG-18Q" secondAttribute="trailing" constant="12" id="Nwa-FN-jP0"/>
@@ -297,6 +294,7 @@
                             <constraint firstItem="3af-Yc-MYm" firstAttribute="top" secondItem="1b6-qL-bKF" secondAttribute="bottom" constant="8" id="ZVg-np-dsI"/>
                             <constraint firstAttribute="bottom" secondItem="f4L-um-DUr" secondAttribute="bottom" constant="19" id="aPY-PT-pl7"/>
                             <constraint firstItem="hez-m4-MRa" firstAttribute="top" secondItem="DmK-r8-uP8" secondAttribute="bottom" constant="53" id="b1a-8M-7mY"/>
+                            <constraint firstItem="hez-m4-MRa" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="27" id="dwD-TK-ou5"/>
                             <constraint firstAttribute="trailing" secondItem="aUy-I7-KVS" secondAttribute="trailing" constant="20" id="i28-FU-xCA"/>
                             <constraint firstAttribute="bottom" secondItem="XT5-DL-7uU" secondAttribute="bottom" constant="19" id="jpM-LI-EVa"/>
                             <constraint firstItem="hez-m4-MRa" firstAttribute="top" secondItem="3af-Yc-MYm" secondAttribute="bottom" constant="8" id="lee-at-1nj"/>
@@ -305,7 +303,6 @@
                             <constraint firstItem="3af-Yc-MYm" firstAttribute="leading" secondItem="dTE-Rn-ePd" secondAttribute="leading" constant="25" id="pmB-oV-Eb6"/>
                             <constraint firstItem="Zh0-qW-KJz" firstAttribute="top" secondItem="emk-lR-LVG" secondAttribute="bottom" constant="6" id="sYz-dh-6dY"/>
                             <constraint firstItem="DmK-r8-uP8" firstAttribute="top" secondItem="emk-lR-LVG" secondAttribute="bottom" constant="6" id="vWM-Ii-0OT"/>
-                            <constraint firstItem="3af-Yc-MYm" firstAttribute="top" secondItem="1b6-qL-bKF" secondAttribute="bottom" constant="8" id="zQM-NO-vB8"/>
                         </constraints>
                     </view>
                     <touchBar key="touchBar" id="abe-xg-pb9">
@@ -314,7 +311,7 @@
                                 <viewController key="viewController" id="gj2-Uz-fsG">
                                     <textField key="view" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jiy-48-Pps">
                                         <rect key="frame" x="0.0" y="0.0" width="281" height="18"/>
-                                        <textFieldCell key="cell" lineBreakMode="clipping" title="SlideBukkonuki-GUI Version 1.0.0 beta 3" id="2z5-Fu-ndy">
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="SlideBukkonuki-GUI Version 1.0.0 beta 2" id="2z5-Fu-ndy">
                                             <font key="font" usesAppearanceFont="YES"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -347,12 +344,12 @@
             </objects>
             <point key="canvasLocation" x="333" y="414"/>
         </scene>
-        <!--What's new?-->
+        <!--View Controller-->
         <scene sceneID="UQr-B8-iee">
             <objects>
-                <viewController title="What's new?" showSeguePresentationStyle="single" id="QOs-8J-pxo" sceneMemberID="viewController">
+                <viewController id="QOs-8J-pxo" sceneMemberID="viewController">
                     <view key="view" id="tQu-6p-JwB">
-                        <rect key="frame" x="0.0" y="0.0" width="452" height="155"/>
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="155"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UHw-Rf-FGO">
@@ -365,31 +362,31 @@
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Qi5-Od-YRZ">
                                 <rect key="frame" x="18" y="92" width="123" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Version 1.0.0 beta 3" id="0nL-63-PdT">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5GX-oO-hV9">
-                                <rect key="frame" x="18" y="68" width="293" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="・本家様のソフトウェア更新に伴い、修正しました。" id="UmN-Ki-xJu">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GQP-ii-RgS">
-                                <rect key="frame" x="18" y="44" width="416" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="・Webサイトへのリンクをデフォルトのブラウザで開けるようにしました。" id="Lgx-l5-cAP">
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Version 1.0.0 beta 2" id="0nL-63-PdT">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="iyL-PY-FtF">
-                                <rect key="frame" x="18" y="20" width="281" height="16"/>
+                                <rect key="frame" x="18" y="44" width="281" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="・このアプリについての配置を少し修正しました。" id="KIY-Dc-OXX">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1kw-eb-ysf">
+                                <rect key="frame" x="18" y="20" width="189" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="・What's new?を追加しました。" id="wfR-am-Z22">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5GX-oO-hV9">
+                                <rect key="frame" x="18" y="68" width="329" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="・このアプリについてにアプリのアイコンを表示しました。" id="UmN-Ki-xJu">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -402,17 +399,30 @@
                             <constraint firstItem="Qi5-Od-YRZ" firstAttribute="top" secondItem="UHw-Rf-FGO" secondAttribute="bottom" constant="8" id="DoI-wH-MSb"/>
                             <constraint firstItem="5GX-oO-hV9" firstAttribute="top" secondItem="Qi5-Od-YRZ" secondAttribute="bottom" constant="8" id="DwX-VI-Rmp"/>
                             <constraint firstItem="iyL-PY-FtF" firstAttribute="leading" secondItem="tQu-6p-JwB" secondAttribute="leading" constant="20" id="F8v-Q5-kcr"/>
-                            <constraint firstAttribute="trailing" secondItem="GQP-ii-RgS" secondAttribute="trailing" constant="20" id="HZl-qh-6xE"/>
+                            <constraint firstItem="1kw-eb-ysf" firstAttribute="top" secondItem="iyL-PY-FtF" secondAttribute="bottom" constant="8" id="GSk-8L-UX5"/>
                             <constraint firstItem="UHw-Rf-FGO" firstAttribute="top" secondItem="tQu-6p-JwB" secondAttribute="top" constant="20" id="KIH-LG-mBD"/>
-                            <constraint firstItem="iyL-PY-FtF" firstAttribute="top" secondItem="GQP-ii-RgS" secondAttribute="bottom" constant="8" id="LhC-kz-4nW"/>
                             <constraint firstItem="5GX-oO-hV9" firstAttribute="leading" secondItem="tQu-6p-JwB" secondAttribute="leading" constant="20" id="QdD-zd-D0h"/>
-                            <constraint firstAttribute="bottom" secondItem="iyL-PY-FtF" secondAttribute="bottom" constant="20" id="SoX-UW-noC"/>
                             <constraint firstItem="5GX-oO-hV9" firstAttribute="top" secondItem="Qi5-Od-YRZ" secondAttribute="bottom" constant="8" id="UcQ-PO-dLe"/>
-                            <constraint firstItem="GQP-ii-RgS" firstAttribute="leading" secondItem="tQu-6p-JwB" secondAttribute="leading" constant="20" id="s4l-O1-w51"/>
-                            <constraint firstItem="GQP-ii-RgS" firstAttribute="top" secondItem="5GX-oO-hV9" secondAttribute="bottom" constant="8" id="yzy-na-8d0"/>
+                            <constraint firstItem="1kw-eb-ysf" firstAttribute="leading" secondItem="tQu-6p-JwB" secondAttribute="leading" constant="20" id="YEd-5H-gv9"/>
+                            <constraint firstItem="iyL-PY-FtF" firstAttribute="top" secondItem="5GX-oO-hV9" secondAttribute="bottom" constant="8" id="aZk-b6-BJy"/>
                         </constraints>
                     </view>
-                    <touchBar key="touchBar" id="Xfs-FF-dYv"/>
+                    <touchBar key="touchBar" id="Xfs-FF-dYv">
+                        <touchBarItems>
+                            <touchBarItem id="ADm-wD-73h">
+                                <viewController key="viewController" id="dZk-nc-aNh">
+                                    <textField key="view" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2NR-MK-xkH">
+                                        <rect key="frame" x="0.0" y="0.0" width="378" height="18"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="・Touch Barに対応しました。（このアプリについてのみ）" id="ocL-rU-A7z">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                            </touchBarItem>
+                        </touchBarItems>
+                    </touchBar>
                 </viewController>
                 <customObject id="LNq-F2-A2s" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

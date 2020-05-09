@@ -17,6 +17,9 @@
 /* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
 "AYu-sK-qS6.title" = "Main Menu";
 
+/* Class = "NSTextFieldCell"; title = "Version 1.0.0 beta"; ObjectID = "D54-ha-gpX"; */
+"D54-ha-gpX.title" = "Version 1.0.0 beta";
+
 /* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
 "F2S-fz-NVQ.title" = "Help";
 
@@ -57,8 +60,10 @@
 "Td7-aD-5lo.title" = "Window";
 
 /* Class = "NSTextFieldCell"; title = "Made by takpika"; ObjectID = "Tn6-EA-Dwh"; */
-"Tn6-EA-Dwh.title" = "Developed by takpika";
+"Tn6-EA-Dwh.title" = "Made by takpika";
 
+/* Class = "NSTextFieldCell"; title = "Last Update: 2020/5/8"; ObjectID = "Uwb-h2-3Da"; */
+"Uwb-h2-3Da.title" = "Last Update: 2020/5/8";
 
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
 "Vdr-fp-XzO.title" = "Hide Others";

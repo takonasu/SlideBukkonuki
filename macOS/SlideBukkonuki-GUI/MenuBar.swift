@@ -18,7 +18,7 @@ class MenuBar: NSObject {
         let url = "https://github.com/takonasu/SlideBukkonuki/blob/master/README.md"
         let task = Process()
         task.launchPath = "/usr/bin/env";
-        task.arguments = ["open",url]
+        task.arguments = ["open","-a","safari",url]
         task.launch()
     }
 }
