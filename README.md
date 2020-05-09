@@ -24,7 +24,7 @@ windowsフォルダーのREADME.md を参照ください。
 
 
 ## 使い方(Mac)
-GUI版を使いたい方は[こちら](https://github.com/takonasu/SlideBukkonuki/tree/master/SlideBukkonuki-GUI)を参照ください。  
+GUI版を使いたい方は[こちら](https://github.com/takonasu/SlideBukkonuki/tree/develop/macOS)を参照ください。  
 windowsの人は[こちら](https://github.com/takonasu/SlideBukkonuki/tree/master/Windows)を参照ください。
 ### 準備するもの
 - 授業動画（あらかじめダウンロードしておいてください。)
@@ -89,11 +89,14 @@ windowsの人は[こちら](https://github.com/takonasu/SlideBukkonuki/tree/mast
 動画から画像抽出：https://kisqragi.hatenablog.com/entry/2019/11/02/130921   
 相談しながら折り紙折ってた人: [おしゅん](https://twitter.com/uk_osy)  
 Windows版のビルド： [しゃちぽこ](https://twitter.com/Shachihoko6)  
-Mac GUI版 ： [takpika](https://twitter.com/takpika0308)  
-Mac GUIデザイン: [SGO](https://twitter.com/sgo_ITF)  
 
 ## その他
 作者はプログラミングマジで苦手でC++も114514年ぶりくらいに触ったのでソースコードには稚拙な部分があります。
 何でこの処理してるんだ、もっといいやり方があるぞ等ありましたらバンバン教えてください。
 なんせ、ずっと家にいて暇ですから・・・。
 何かあれば[たこなす](https://twitter.com/ITF_tako)までお願いします。
+
+## コントリビュートについて
+コントリビュートを歓迎しております。まずは改善したい内容をissueに書いてください。
+自分で解決できる問題はissueを立てた後にassignするので建てたissueにその旨を書いてください。
+beta版等、安定していないものはdevelopブランチに入れられます。
