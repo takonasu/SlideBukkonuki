@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31477EDD24663E8E0042918B /* SlideBukkonuki in Resources */ = {isa = PBXBuildFile; fileRef = 31477EDC24663E8E0042918B /* SlideBukkonuki */; };
 		3161C4072463D4E2003548B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161C4062463D4E2003548B0 /* AppDelegate.swift */; };
 		3161C4092463D4E3003548B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161C4082463D4E3003548B0 /* ContentView.swift */; };
 		3161C40B2463D4E9003548B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3161C40A2463D4E9003548B0 /* Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		3161C41D2463D4E9003548B0 /* SlideBukkonuki_GUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161C41C2463D4E9003548B0 /* SlideBukkonuki_GUITests.swift */; };
 		3161C4282463D4E9003548B0 /* SlideBukkonuki_GUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161C4272463D4E9003548B0 /* SlideBukkonuki_GUIUITests.swift */; };
 		3161C4362463D927003548B0 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161C4352463D927003548B0 /* Main.swift */; };
-		31DFA2AE24641BF9006ECDDC /* SlideBukkonuki in Resources */ = {isa = PBXBuildFile; fileRef = 31DFA2AD24641BF9006ECDDC /* SlideBukkonuki */; };
 		31DFA2B62464FE8B006ECDDC /* AboutThisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFA2B52464FE8A006ECDDC /* AboutThisApp.swift */; };
 		31DFA2B82464FEFB006ECDDC /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFA2B72464FEFB006ECDDC /* MenuBar.swift */; };
 		31DFA2BA2465127D006ECDDC /* ATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFA2B92465127D006ECDDC /* ATA.swift */; };
@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31477EDC24663E8E0042918B /* SlideBukkonuki */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = SlideBukkonuki; path = ../../../GitHub/SlideBukkonuki/SlideBukkonuki; sourceTree = "<group>"; };
 		3161C4032463D4E2003548B0 /* SlideBukkonuki-GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SlideBukkonuki-GUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3161C4062463D4E2003548B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3161C4082463D4E3003548B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		3161C4272463D4E9003548B0 /* SlideBukkonuki_GUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideBukkonuki_GUIUITests.swift; sourceTree = "<group>"; };
 		3161C4292463D4E9003548B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3161C4352463D927003548B0 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		31DFA2AD24641BF9006ECDDC /* SlideBukkonuki */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = SlideBukkonuki; path = ../../../../git/SlideBukkonuki/SlideBukkonuki; sourceTree = "<group>"; };
 		31DFA2B52464FE8A006ECDDC /* AboutThisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutThisApp.swift; sourceTree = "<group>"; };
 		31DFA2B72464FEFB006ECDDC /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		31DFA2B92465127D006ECDDC /* ATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATA.swift; sourceTree = "<group>"; };
@@ -167,7 +167,7 @@
 		31DFA2A52463FC57006ECDDC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				31DFA2AD24641BF9006ECDDC /* SlideBukkonuki */,
+				31477EDC24663E8E0042918B /* SlideBukkonuki */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -277,8 +277,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31DFA2AE24641BF9006ECDDC /* SlideBukkonuki in Resources */,
 				3161C4112463D4E9003548B0 /* Main.storyboard in Resources */,
+				31477EDD24663E8E0042918B /* SlideBukkonuki in Resources */,
 				3161C40E2463D4E9003548B0 /* Preview Assets.xcassets in Resources */,
 				31DFA2BE24651802006ECDDC /* Localication.strings in Resources */,
 				3161C40B2463D4E9003548B0 /* Assets.xcassets in Resources */,
