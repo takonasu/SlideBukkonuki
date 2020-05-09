@@ -4,4 +4,8 @@
     <LocalDebuggerCommandArguments>C:/mihora1.mp4 X:/  10 0 1 5</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments> "X:/mihora1.mp4" "C:/Users/rm_ry/Desktop/Release/slides/mihora1/" 50 100 0 5</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
